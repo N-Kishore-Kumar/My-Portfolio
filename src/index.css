@@ -1,0 +1,49 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Redressed&family=Zilla+Slab:ital,wght@1,500&display=swap');
+
+.cursive {
+  font-family: "Zilla Slab", cursive;
+  font-weight: 700;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 80px;
+}
+
+.home-about {
+  font-size: 25px;
+}
+.home-details{
+  font-size: 20px
+}
+
+.row {
+  display: flex;
+  width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.column {
+  text-align: center;
+  flex: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.tab{
+  width: 100%;
+}
+
+body  {
+/* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
